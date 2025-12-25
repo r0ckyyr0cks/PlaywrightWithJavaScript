@@ -14,3 +14,9 @@ console.log("Length of the String is:", firstname.length)
 console.log("Hello", firstname, lastname)
 console.log(firstname.toLowerCase());
 console.log(lastname.toUpperCase());
+
+let number = 20, has = true;
+console.log("Case-1:", number > 18 && has)
+console.log("Case-2:", number < 18 && has)
+console.log("Case-3:", number > 18 || has)
+console.log("Case-4:", number < 18 || has)
